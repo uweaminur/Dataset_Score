@@ -1,3 +1,0 @@
-Dataset,DoS,DDoS,U2R,R2L,Password,Injection,Probe,Basic_Feature,Traffic_Feature,Content_Feature,Release_Year,Availability,Regular_Traffic,Attack_Traffic,Meta_Data,Data_Format,Data_Count,Data_Duration_Days,Source,Type_Of_Network,Predefine_Split,Balanced,Labelled
-LITNET-2020,True,True,False,False,False,False,False,True,True,False,2020,Public,True,True,False,pcap,,332,Real,Academic/ISP,False,False,True
-CIC Modbus 2023,True,False,False,False,False,True,True,True,True,True,2023,Public,True,True,True,pcap,2192765,,Emulated,ICS/Substation (Docker),False,False,True
