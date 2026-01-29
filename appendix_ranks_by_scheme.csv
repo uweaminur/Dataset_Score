@@ -1,0 +1,14 @@
+Dataset,Equal,ProvenanceEmphasis,EvalReadinessEmphasis
+LITNET-2020,10,10,10
+CIC Modbus 2023,8,8,8
+HDFS,11,11,11
+BGL,13,13,13
+OpenStack,11,11,11
+KDD'99,3,4,2
+NSL-KDD,1,1,1
+Kyoto,6,6,6
+ISCX2012,9,9,9
+CICIDS 2017,2,3,5
+DARPA99,3,4,2
+DEFCON,6,6,6
+DNS Data,5,2,4
