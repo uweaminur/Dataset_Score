@@ -1,6 +1,0 @@
-Dataset,Attack Coverage,Provenance Source,Feature Diversity,Documentation & Metadata,Evaluation Readiness,Availability
-CICIDS2017,5,3,5.0,5.0,3.75,5
-NF-UQ-NIDS,5,3,5.0,5.0,3.75,5
-UNSW-NB15,5,3,5.0,5.0,3.75,5
-Kyoto 2006+,5,4,3.33,5.0,3.75,5
-CSE-CIC-IDS2018,5,3,5.0,5.0,2.5,5
