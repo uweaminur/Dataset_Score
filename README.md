@@ -20,6 +20,14 @@ The repository also provides visualisation tools to generate:
 - `Final_Version/`  
   Folder containing the final workflow version.
 
+## Framework Workflow
+
+Methodology_Figure_V2.png
+
+*Figure 1. PRISMA-guided dataset scoring workflow.*
+
+
+
 ## Reproducibility and environment
 - **Python:** 3.10+ recommended  
 - **Dependencies:** listed in `requirements.txt`  
