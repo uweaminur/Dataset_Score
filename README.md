@@ -23,7 +23,7 @@ The repository also provides visualisation tools to generate:
 <h2>Framework Workflow</h2>
 <p align="center">
 <img src="Methodology_Figure_V2.png"lign="center">
-<em>Figure 1. PRISMA-guided dataset scoring workflow.</em>
+<em>Figure: PRISMA-guided dataset scoring workflow.</em>
 </p>
 
 
