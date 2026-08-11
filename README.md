@@ -2,15 +2,15 @@
 
 This repository contains the code and descriptor tables used to operationalise a PRISMA-guided, property-based scoring framework for cybersecurity threat datasets. It generates (i) a scored table of datasets across six categories and (ii) the plots used for comparative visualisation (heatmap, category line chart, radar chart, and overall bar chart).
 
-## Repository contents (key artefacts)
-- `Full_Dataset1.csv`  
+## Repository contents (key artifacts)
+- `Full_Dataset_Revised_V2.csv`  
   Primary dataset descriptor table (property coding inputs used by the scoring pipeline).
-- `dataset_scores_table.csv`  
+- `Table_Overall_Ranking.csv`  
   Generated output table containing category scores and the overall mean score (0–5).
-- `Final_Scoring_Code.ipynb` / `Datasetscoring.ipynb`  
+- `Datasetscoring.ipynb` and 'Dataset_Evaluation.ipynb'
   Executable notebooks implementing scoring and figure generation.
-- `Final/`  
-  Folder containing the final workflow version (if applicable).
+- `Final_Version/`  
+  Folder containing the final workflow version.
 
 ## Reproducibility and environment
 - **Python:** 3.10+ recommended  
