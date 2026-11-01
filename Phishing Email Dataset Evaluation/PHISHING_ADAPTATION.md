@@ -98,6 +98,5 @@ The other 38 datasets are left out mainly because many of their cells cannot be 
 
 If you use this framework, please cite:
 
-> Rahman, A. (2026). *Phishing email dataset evaluation framework* (adapted from a threat-dataset evaluation framework). University of Canberra. [Add repository URL or DOI]
-
+> Rahman, A. (2026). *Phishing email dataset evaluation framework* (adapted from a threat-dataset evaluation framework). University of Canberra. https://doi.org/10.3390/app16189205 
 ORCID: [0009-0001-5229-2645](https://orcid.org/0009-0001-5229-2645)
