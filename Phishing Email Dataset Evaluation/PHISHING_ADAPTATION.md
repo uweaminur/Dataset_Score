@@ -1,6 +1,8 @@
 # Phishing Email Dataset Evaluation
 
-This folder adapts the threat-dataset evaluation framework to **phishing email datasets**.
+This folder adapts the deterministic scoring framework of
+[Rahman et al. (2026)](https://doi.org/10.3390/app16189205), built for intrusion detection datasets,
+to **phishing email datasets**.
 The framework keeps its six categories and its 0–5 scale.
 Only the columns inside each category, and a few scoring rules, change.
 
@@ -39,9 +41,9 @@ To score all 58 datasets instead of the 20, export the first sheet of
 
 **Overall** = mean of the six category scores.
 
-## Adjustments from the threat-dataset framework
+## Adjustments from the intrusion detection framework (Rahman et al., 2026)
 
-| # | Category | Threat dataset (original) | Phishing email dataset (adjusted) | Code change | Rule or note |
+| # | Category | Intrusion detection dataset (original) | Phishing email dataset (adjusted) | Code change | Rule or note |
 |---|---|---|---|---|---|
 | 1 | Attack Coverage | DoS, DDoS, U2R, R2L, Probe | Phishing, Spear_Phishing, BEC, Fraud_Scam, LLM_Phishing | Yes: `ATTACK_COLS` | A class counts if it is labelled or is the dataset's design. |
 | 2 | Attack Coverage | — | Spam_Present (not scored) | No | Spam is not an attack; recorded for label quality only. |
@@ -96,7 +98,22 @@ The other 38 datasets are left out mainly because many of their cells cannot be 
 
 ## Citation
 
-If you use this framework, please cite:
+If you use this framework, please cite the original paper:
 
-> Rahman, A. (2026). *Phishing email dataset evaluation framework* (adapted from a threat-dataset evaluation framework). University of Canberra. https://doi.org/10.3390/app16189205 
-ORCID: [0009-0001-5229-2645](https://orcid.org/0009-0001-5229-2645)
+> Rahman, S. M. A., Ullah, A. B., Mohammadian, M., & Alem, Y. F. (2026). A PRISMA-derived deterministic scoring framework for intrusion detection dataset evaluation. *Applied Sciences*, 16(18), 9205. https://doi.org/10.3390/app16189205
+
+```bibtex
+@article{rahman2026prisma,
+  title   = {A PRISMA-Derived Deterministic Scoring Framework for Intrusion Detection Dataset Evaluation},
+  author  = {Rahman, S. M. Aminur and Ullah, Abu Barkat and Mohammadian, Masoud and Alem, Yibeltal F.},
+  journal = {Applied Sciences},
+  volume  = {16},
+  number  = {18},
+  pages   = {9205},
+  year    = {2026},
+  doi     = {10.3390/app16189205}
+}
+```
+
+The phishing adaptation in this folder is by S. M. Aminur Rahman, University of Canberra
+(ORCID: [0009-0001-5229-2645](https://orcid.org/0009-0001-5229-2645)).
