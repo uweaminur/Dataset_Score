@@ -1,0 +1,21 @@
+Dataset,Attack Coverage,Provence Score,Feature Diversity,Documentation & Metadata,Evaluation Readiness,Availability,Overall (Mean)
+Nazario,1.0,5.0,5.0,1.67,1.67,5.0,3.22
+phishing_pot,1.0,5.0,5.0,1.67,1.67,5.0,3.22
+Enron,0.0,5.0,5.0,5.0,0.0,5.0,3.33
+SpamAssassin,0.0,5.0,5.0,5.0,1.67,5.0,3.61
+TREC 2005–07,0.0,5.0,5.0,5.0,1.67,3.0,3.28
+CLAIR (Nigerian Fraud),1.0,5.0,5.0,5.0,1.67,5.0,3.78
+IWSPA-AP 2018,1.0,5.0,5.0,5.0,3.33,3.0,3.72
+Champa Curated (11 sets),2.0,5.0,5.0,5.0,1.67,5.0,3.94
+Kaggle (Alam),2.0,5.0,5.0,5.0,3.33,5.0,4.22
+Kaggle (Chakraborty),1.0,5.0,3.33,3.33,1.67,5.0,3.22
+MeAJOR,1.0,5.0,5.0,5.0,1.67,5.0,3.78
+APOLLO,2.0,5.0,5.0,5.0,3.33,5.0,4.22
+Human-LLM (Greco),2.0,4.0,1.67,5.0,3.33,5.0,3.5
+AI Phishing (Eze & Shamir),2.0,1.0,1.67,5.0,1.67,5.0,2.72
+E-PhishLLM,2.0,2.0,3.33,3.33,3.33,5.0,3.17
+PhishFuzzer,2.0,4.0,5.0,3.33,1.67,5.0,3.5
+NEST-Phish,2.0,2.0,5.0,5.0,3.33,5.0,3.72
+PhishTwins,2.0,2.0,3.33,5.0,5.0,5.0,3.72
+Avocado,0.0,5.0,5.0,5.0,0.0,3.0,3.0
+APWG Corpus (Park),1.0,5.0,3.33,3.33,1.67,1.0,2.56
