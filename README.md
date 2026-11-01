@@ -45,3 +45,24 @@ This repository contributes:
    ```bash
    git clone https://github.com/uweaminur/Dataset_Score.git
    cd Dataset_Score
+
+
+Citation
+
+If you use this framework, please cite the original paper:
+
+Rahman, S. M. A., Ullah, A. B., Mohammadian, M., & Alem, Y. F. (2026). A PRISMA-derived deterministic scoring framework for intrusion detection dataset evaluation. Applied Sciences, 16(18), 9205. https://doi.org/10.3390/app16189205
+
+bibtex
+@article{rahman2026prisma,
+  title   = {A PRISMA-Derived Deterministic Scoring Framework for Intrusion Detection Dataset Evaluation},
+  author  = {Rahman, S. M. Aminur and Ullah, Abu Barkat and Mohammadian, Masoud and Alem, Yibeltal F.},
+  journal = {Applied Sciences},
+  volume  = {16},
+  number  = {18},
+  pages   = {9205},
+  year    = {2026},
+  doi     = {10.3390/app16189205}
+}
+
+The phishing adaptation in this folder is by S. M. Aminur Rahman, University of Canberra (ORCID: 0009-0001-5229-2645).
